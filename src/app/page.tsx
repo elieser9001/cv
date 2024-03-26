@@ -90,7 +90,7 @@ export default function Page() {
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a
                         className="mt-5 text-red-400 hover:underline"
-                        href={work.link}
+                        href={work.link ? work.link : ""}
                         target="_blank"
                       >
                         {work.company}
@@ -123,7 +123,7 @@ export default function Page() {
                           {achievement.description}
 
                           {achievement.repository ? (
-                            <p className="mt-4">
+                            <span className="mt-4">
                               <span className="mr-1 font-bold">
                                 Repositorio:
                               </span>
@@ -134,7 +134,7 @@ export default function Page() {
                               >
                                 {achievement.repository}
                               </a>
-                            </p>
+                            </span>
                           ) : null}
                         </p>
                       </>

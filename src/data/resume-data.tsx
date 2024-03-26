@@ -1,28 +1,4 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import {
-  GitHubIcon,
-  LinkedInIcon,
-  XIcon,
-  MediumIcon,
-} from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, MediumIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Elieser Reyes",
@@ -31,7 +7,7 @@ export const RESUME_DATA = {
   about:
     "Desarrollador Full Stack interesado en construir aplicaciones innovadoras y de alta calidad.",
   summary:
-    "Me especializo en la creación de sistemas y aplicaciones, abordando los desafíos técnicos de una forma creativa e innovadora.",
+    "Me especializo en la creación de sistemas y aplicaciones abordando los desafíos técnicos de una forma creativa e innovadora.",
   avatarUrl:
     "https://media.licdn.com/dms/image/D4E03AQGAX8OaNUi30g/profile-displayphoto-shrink_800_800/0/1686766117499?e=1717027200&v=beta&t=ir5mH2bdoQYe6pPHKGqlafgcB9EPzQrLkKL1Nooe7dM",
   personalWebsiteUrl: "https://medium.com/santori2600",
@@ -125,6 +101,7 @@ export const RESUME_DATA = {
     },
     {
       company: "9Deck",
+      link: null,
       badges: ["Presencial"],
       title: "Freelance Full Stack Developer",
       start: "Junio de 2017",
@@ -173,8 +150,8 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Watsi",
-      techStack: ["Side Project", "TypeScript", "React.js"],
+      title: "Watsi (proyecto personal)",
+      techStack: ["TypeScript", "React.js"],
       description:
         "Una extensión Google Chrome, para enviar de manera programada mensajes de Whatsapp a una lista de contactos y no contactos usando Whatsapp Web.",
       link: {
@@ -183,8 +160,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "ADB Helper",
-      techStack: ["Side Project", "Javascript", "Electron"],
+      title: "ADB Helper (proyecto personal)",
+      techStack: ["Javascript", "Electron"],
       description:
         "Aplicación para Escritorio en Linux la desarrollé con el fin de poder administrar de manera remota dispositivos Android por medio de una interfaz gráfica y usando la comunicación en red local, con NodeJS y ElectronJS.",
       link: {
@@ -193,8 +170,9 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Android Raptor (Stealth Android Remote Manager)",
-      techStack: ["Side Project", "Golang"],
+      title:
+        "Android Raptor - Stealth Android Remote Manager (proyecto personal)",
+      techStack: ["Golang"],
       description:
         "Desarrollé en Go este software ejecutable como proceso oculto Linux arm64 para la administración remota de dispositivos Android. El teléfono móvil Android puede ser controlado remotamente desde cualquier parte del mundo. Todas las funciones son aplicadas remotamente y en tiempo real en el teléfono Android.",
       link: {
@@ -220,6 +198,16 @@ export const RESUME_DATA = {
       link: {
         label: "CaboSafeRide Telegram Bot",
         href: "https://github.com/elieser9001/CaboSafeRide-Telegram-Bot",
+      },
+    },
+    {
+      title: "LabStar Systems Webscraper",
+      techStack: ["Python"],
+      description:
+        "Webscraping a el sistema de LabStar y despliegue de una interface web para automatizar la obtención de datos. Entre sus funciones está: Logeo automático de peticiones con usuario y contraseña, y comprobacion automática del estado de la sesión para renovarla en caso de que este expirada",
+      link: {
+        label: "LabStar Systems Webscraper",
+        href: "https://github.com/elieser9001/LabStar-Scrapper-y-API-Gateway",
       },
     },
   ],
