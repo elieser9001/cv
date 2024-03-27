@@ -153,6 +153,10 @@ export const RESUME_DATA = {
       techStack: ["TypeScript", "React.js"],
       description:
         "Una extensión Google Chrome, para enviar de manera programada mensajes de Whatsapp a una lista de contactos y no contactos usando Whatsapp Web.",
+      link: {
+        label: "Watsi",
+        href: "https://chromewebstore.google.com/detail/watsi/jjmpolanogoifpcppmalpdcfkjlicoai",
+      },
     },
     {
       title: "ADB Helper (proyecto personal)",
