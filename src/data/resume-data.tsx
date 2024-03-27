@@ -4,10 +4,9 @@ export const RESUME_DATA = {
   name: "Elieser Reyes",
   initials: "ER",
   location: "Bogotá, Colombia.",
-  about:
-    "Desarrollador Full Stack interesado en construir aplicaciones innovadoras y de alta calidad.",
+  about: "❤️ Linux 🐧",
   summary:
-    "Me especializo en la creación de sistemas y aplicaciones abordando los desafíos técnicos de una forma creativa e innovadora.",
+    "Soy un desarrollador que disfruta haciendo ingeniería inversa a todo lo que me llama la atención, para estudiar su funcionamiento y usar el desarrollo de software para llevar su funcionamiento aún más allá.",
   avatarUrl:
     "https://media.licdn.com/dms/image/D4E03AQGAX8OaNUi30g/profile-displayphoto-shrink_800_800/0/1686766117499?e=1717027200&v=beta&t=ir5mH2bdoQYe6pPHKGqlafgcB9EPzQrLkKL1Nooe7dM",
   personalWebsiteUrl: "https://medium.com/santori2600",
