@@ -1,12 +1,12 @@
 import { GitHubIcon, LinkedInIcon, MediumIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Elieser Reyes",
+  name: "Elieser R. Reyes",
   initials: "ER",
   location: "Bogotá, Colombia.",
-  about: "❤️ Linux 🐧",
+  about: "",
   summary:
-    "Soy un desarrollador que disfruta haciendo ingeniería inversa a todo lo que me llama la atención, para estudiar su funcionamiento y usar el desarrollo de software para llevar su funcionamiento aún más allá.",
+    "Soy un desarrollador de software que disfruta haciendo ingeniería inversa a todo lo que atrae mi atención para estudiar su funcionamiento y usar el desarrollo de software para expandir su funcionamiento aún más allá.",
   avatarUrl:
     "https://media.licdn.com/dms/image/D4E03AQGAX8OaNUi30g/profile-displayphoto-shrink_800_800/0/1686766117499?e=1717027200&v=beta&t=ir5mH2bdoQYe6pPHKGqlafgcB9EPzQrLkKL1Nooe7dM",
   personalWebsiteUrl: "https://medium.com/santori2600",
@@ -52,12 +52,12 @@ export const RESUME_DATA = {
         },
         {
           description:
-            "• Llevé a cabo todo el Core en formato de Extensión de Chrome para el proyecto de comunicación entre la extensión y la interfaz usando la API interna del Whatsapp Web.",
+            "• Desarrollé todo el núcleo de comunicación entre la extensión y la interfaz usando la API interna del Whatsapp Web.",
           repository: null,
         },
         {
           description:
-            "• Desarrollé y mantuve un sistema de gestión y log de mensajes, mejorando la eficiencia de los recursos del VPS.",
+            "• Mantuve un sistema de gestión y log de mensajes, mejorando la eficiencia de los recursos del VPS.",
           repository: null,
         },
         {
@@ -76,6 +76,16 @@ export const RESUME_DATA = {
           repository: null,
         },
       ],
+      techStack: [
+        "Javascript",
+        "Typescript",
+        "React.js",
+        "MongoDB",
+        "Laravel",
+        "MySql",
+        "NodeJs",
+        "Linux",
+      ],
     },
     {
       company: "Cabo Safe Ride",
@@ -92,10 +102,26 @@ export const RESUME_DATA = {
         },
         {
           description:
-            "• Desarrollé con Python y Django un servidor para la  dministración de documentos y la creación de bot para telegram donde los conductores pueden desde el grupo hacer uso del bot para la administración de documentos importantes de la empresa Cabo Safe Ride.",
-          repository:
-            "https://github.com/elieser9001/CaboSafeRide-Telegram-Bot",
+            "• Desarrollé con Python y Django un servidor para la administración de documentos y la creación de un bot para telegram donde los conductores pueden desde el grupo hacer uso del bot para la administración de documentos importantes de la empresa Cabo Safe Ride.",
+          repository: {
+            description: "Cabo Safe Ride Telegram Bot",
+            link: "https://github.com/elieser9001/CaboSafeRide-Telegram-Bot",
+          },
         },
+        {
+          description:
+            "• Lleve a cabo el desarrollo de un webhook que procesa la informacion proveniente de las reservaciones que se hacen en el sition principal, para clasificarlas de manera automática.",
+          repository: null,
+        },
+      ],
+      techStack: [
+        "PHP",
+        "Laravel",
+        "Vue.js",
+        "Tailwind",
+        "Python",
+        "Django",
+        "Linux",
       ],
     },
     {
@@ -132,6 +158,7 @@ export const RESUME_DATA = {
           repository: null,
         },
       ],
+      techStack: ["Socket.IO", "Javascript", "Electron", "NodeJs", "Linux"],
     },
   ],
   skills: [
@@ -150,9 +177,9 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Watsi (proyecto personal)",
-      techStack: ["TypeScript", "React.js"],
+      techStack: ["Javascript", "TypeScript", "React.js"],
       description:
-        "Una extensión Google Chrome, para enviar de manera programada mensajes de Whatsapp a una lista de contactos y no contactos usando Whatsapp Web.",
+        "Una extensión para Google Chrome, que permite enviar de manera programada mensajes de Whatsapp a una lista de contactos y no contactos usando las funciones internas de Whatsapp Web.",
       link: {
         label: "Watsi",
         href: "https://chromewebstore.google.com/detail/watsi/jjmpolanogoifpcppmalpdcfkjlicoai",
@@ -160,7 +187,7 @@ export const RESUME_DATA = {
     },
     {
       title: "ADB Helper (proyecto personal)",
-      techStack: ["Javascript", "Electron"],
+      techStack: ["Javascript", "Electron", "NodeJs", "Linux"],
       description:
         "Aplicación para Escritorio en Linux la desarrollé con el fin de poder administrar de manera remota dispositivos Android por medio de una interfaz gráfica y usando la comunicación en red local, con NodeJS y ElectronJS.",
       link: {
@@ -171,9 +198,9 @@ export const RESUME_DATA = {
     {
       title:
         "Android Raptor - Stealth Android Remote Manager (proyecto personal)",
-      techStack: ["Golang"],
+      techStack: ["Golang", "Linux"],
       description:
-        "Desarrollé en Go este software ejecutable como proceso oculto Linux arm64 para la administración remota de dispositivos Android. El teléfono móvil Android puede ser controlado remotamente desde cualquier parte del mundo. Todas las funciones son aplicadas remotamente y en tiempo real en el teléfono Android.",
+        "Desarrollé en Go este software ejecutable como proceso oculto Linux Android con arquitectura arm64, para la administración remota de dispositivos Android. El teléfono móvil Android puede ser controlado remotamente desde cualquier parte del mundo. Todas las funciones son aplicadas remotamente y en tiempo real en el teléfono Android.",
       link: {
         label: "Android Raptor",
         href: "https://github.com/elieser9001/AndroidRaptor",
@@ -181,7 +208,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Validador de Licencia para Cri1.com",
-      techStack: ["Python"],
+      techStack: ["Python", "GraphQL", "Linux", "Nginx"],
       description:
         "Recibe peticiones http desde las extensiones de chrome de cri1.com y hace la conexión a la API oficial de woocommerce en el server de wordpress de Cri1.com y con GraphQL para los datos de usuario de Wordpress segun el correo proporcionado desde las extensiones. Hice el despliegue en un VPS Linux y lo he configurado con un proxy inverso Nginx con certificado SSL.",
       link: {
@@ -191,7 +218,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Bot para Telegram que proporciona documentos en grupo.",
-      techStack: ["Python", "Django"],
+      techStack: ["Python", "Django", "Linux"],
       description:
         "Bot con interfaz web para la administracion y servicio del control de documentos en el grupo de Telegram de CaboSafeRide. Cuenta con una implementacion de interface administrativa web para gestionar la asignacion de comandos y vincularlos con los documentos para que el bot de telegram pueda servirlos en el grupo,",
       link: {
@@ -200,8 +227,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "LabStar Systems Webscraper",
-      techStack: ["Python"],
+      title: "LabStar Systems Webscraper.",
+      techStack: ["Python", "Linux"],
       description:
         "Webscraping a el sistema de LabStar y despliegue de una interface web para automatizar la obtención de datos. Entre sus funciones está: Logeo automático de peticiones con usuario y contraseña, y comprobacion automática del estado de la sesión para renovarla en caso de que este expirada",
       link: {

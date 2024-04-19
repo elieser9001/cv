@@ -44,21 +44,13 @@ CardTitle.displayName = "CardTitle";
 const CardDescription = React.forwardRef<
   HTMLParagraphElement,
   React.HTMLAttributes<HTMLParagraphElement>
->(({ className, ...props }, ref) => (
-  <p ref={ref} className={cn("text-sm  ", className)} {...props} />
-));
+>(({ className, ...props }, ref) => <p ref={ref} {...props} />);
 CardDescription.displayName = "CardDescription";
 
 const CardContent = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn("text-pretty font-mono text-sm  ", className)}
-    {...props}
-  />
-));
+>(({ className, ...props }, ref) => <div ref={ref} {...props} />);
 CardContent.displayName = "CardContent";
 
 const CardFooter = React.forwardRef<
