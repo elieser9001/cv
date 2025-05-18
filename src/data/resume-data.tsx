@@ -227,6 +227,15 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Megalicencia.com (proyecto personal)",
+      techStack: ["Golang","Fiber", "Gorm", "Vue.js","Nuxt"],
+      description:
+        "Sistema SaaS basado en la nube que facilita la gestión de la extensión WhatsApp CRM para Google Chrome. Cuento con usuarios de múltiples nacionalidades usando mi sistema. El backend, lo desarrollé en Golang, implementando una API REST para gestionar datos de licencias cifrados y controlar de manera remota el comportamiento de la extensión para cada cliente. Actualmente, me encuentro desarrollándole un módulo para agregarle un sistema automatizado de créditos, integrable con Binance Pay, para la adquisición de los mismos y un dashboard, entre otras funcionalidades, como un asistente para generar reportes a partir de lenguaje natural con inteligencia artificial",      link: {
+        label: "Megalicencia.com",
+        href: "https://megalicencia.com",
+      },
+    },
+    {
       title: "Watsi (proyecto personal)",
       techStack: ["Javascript", "TypeScript", "React.js"],
       description:
