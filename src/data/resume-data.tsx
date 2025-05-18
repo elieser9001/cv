@@ -9,7 +9,7 @@ export const RESUME_DATA = {
     "Soy un desarrollador de software que disfruta haciendo ingeniería inversa a todo lo que atrae mi atención para estudiar su funcionamiento y usar el desarrollo de software para expandir su funcionamiento aún más allá.",
   avatarUrl:
     "https://megalicencia.com/ereyes.jpeg",
-  personalWebsiteUrl: "https://medium.com/santori2600",
+  personalWebsiteUrl: "https://www.linkedin.com/in/linuxc",
   contact: {
     email: "programatica@gmail.com",
     social: [
@@ -38,12 +38,63 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "AntiFraude Cybersecurity & Privacy Services LLC",
+      link: "https://www.linkedin.com/company/gruposchartlatinoam%C3%A9rica",
+      badges: ["Remoto"],
+      title: "Ethical Hacker",
+      start: "Noviembre 2024",
+      end: "Actualidad",
+      achievements: [
+        {
+          description:
+            "• Realización de auditorías de seguridad en aplicaciones móviles (Android/iOS) y web, identificando vulnerabilidades como inyecciones SQL, XSS, IDOR y fallos en autenticación.",
+          repository: null,
+        },
+        {
+          description:
+            "• Ejecución de ingeniería inversa en aplicaciones móviles para extraer claves de cifrado, analizar código ofuscado y detectar configuraciones inseguras.",
+          repository: null,
+        },
+        {
+          description:
+            "• Desarrollo y mantenimiento de scripts en Python, Golang y Bash para automatizar flujos de ataque, escaneo de vulnerabilidades y pruebas de penetración.",
+          repository: null,
+        },
+        {
+          description:
+            "• Análisis de tráfico de red cifrado utilizando herramientas como Wireshark y mitmproxy para identificar fugas de datos y configuraciones débiles.",
+          repository: null,
+        },
+        {
+          description:
+            "• Elaboración de reportes técnicos detallados con hallazgos, impactos y recomendaciones de mitigación para equipos de desarrollo y clientes.",
+          repository: null,
+        },
+        {
+          description:
+            "• Configuración de entornos de pruebas seguros utilizando Docker en Linux para simular ataques controlados.",
+          repository: null,
+        },
+        {
+          description:
+            "• Automatizé un flujo de ataque para pruebas de fuerza bruta en APIs REST, reduciendo el tiempo de auditoría en un 40% mediante scripts en Python.",
+          repository: null,
+        },
+      ],
+      techStack: [
+        "Golang",
+        "Python",
+        "Bash",
+        "Javascript",
+      ],
+    },
+    {
       company: "Etivi.com",
       link: "https://etivi.com",
       badges: ["Remoto"],
       title: "Desarollador Full Stack",
-      start: "Diciembre 2022",
-      end: "Actualidad",
+      start: "Noviembre 2022",
+      end: "Octubre 2024",
       achievements: [
         {
           description:
