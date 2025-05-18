@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   summary:
     "Soy un desarrollador de software que disfruta haciendo ingeniería inversa a todo lo que atrae mi atención para estudiar su funcionamiento y usar el desarrollo de software para expandir su funcionamiento aún más allá.",
   avatarUrl:
-    "https://media.licdn.com/dms/image/D4E03AQGAX8OaNUi30g/profile-displayphoto-shrink_800_800/0/1686766117499?e=1717027200&v=beta&t=ir5mH2bdoQYe6pPHKGqlafgcB9EPzQrLkKL1Nooe7dM",
+    "https://megalicencia.com/ereyes.jpeg",
   personalWebsiteUrl: "https://medium.com/santori2600",
   contact: {
     email: "programatica@gmail.com",
